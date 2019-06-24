@@ -1,7 +1,24 @@
+/* ---------  NAV BAR --------- */
+
 #logo-main {
     display: block;
     margin: 5px auto;
   }
+
+.top-logo {
+    background-color: white;
+}
+
+.nav-item {
+    text-transform: uppercase;
+}
+
+.navbar {
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid #cccccc;
+}
+/* ---------  JUMBOTRON --------- */
 
 .jumbotron {
     background-position: center;
@@ -21,12 +38,6 @@
     border: none;
 }
 
-.nav-item {
-    text-transform: uppercase;
-}
-
-.navbar {
-    width: 70%;
-    margin: auto;
-    border-bottom: 1px solid gray;
+.col-md-4 {
+    padding: 0 5px;
 }
