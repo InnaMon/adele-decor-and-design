@@ -11,3 +11,13 @@
     height: 100vh;
     padding-top: 200px;
 }
+
+.card {
+    border-radius: 0;
+    border: none;
+}
+
+.card-img-top {
+    border-radius: 0;
+    border: none;
+}
