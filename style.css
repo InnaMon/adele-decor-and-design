@@ -1,3 +1,8 @@
+h2 {
+    font-family: 'Italianno', cursive;
+    font-weight: lighter;
+}
+
 /* ---------  NAV BAR --------- */
 
 #logo-main {
@@ -15,7 +20,7 @@
 
 .navbar {
     width: 70%;
-    margin: auto;
+    margin: auto auto 15px auto;
     border-bottom: 1px solid #cccccc;
 }
 /* ---------  JUMBOTRON --------- */
@@ -41,3 +46,22 @@
 .col-md-4 {
     padding: 0 5px;
 }
+
+/* ---------  SERVICES  --------- */
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.btn-outline-success {
+    color: #fff;
+    /* background-color: #9494b8; */
+    background-color: #c2c2d6;
+    border-color: #9494b8;
+  }
+  
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #9494b8;
+    border-color: #9494b8;
+  }
