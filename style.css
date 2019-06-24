@@ -2,4 +2,12 @@
     display: block;
     margin: 20px auto;
   }
-  
+
+.jumbotron {
+    background-position: center;
+    /* background-image: url("img/hero2.jpg"); */
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 200px;
+}
