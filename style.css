@@ -48,6 +48,7 @@ h2 {
 }
 
 /* ---------  SERVICES  --------- */
+
 .btn {
     border-radius: 0;
     text-transform: uppercase;
@@ -65,3 +66,22 @@ h2 {
     background-color: #9494b8;
     border-color: #9494b8;
   }
+
+/* ---------  TESTIMONIALS  --------- */
+
+.carousel {
+    width: 70%;
+    margin: auto;
+}
+
+.carousel-caption {
+    padding-bottom: 100px;
+}
+
+.carousel-caption p {
+    color: black;
+}
+
+h5 {
+    color: black;
+}
