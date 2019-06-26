@@ -72,6 +72,9 @@ h2 {
 .carousel {
     width: 70%;
     margin: auto;
+    background-position: center;
+    background-color: white;
+    background-size: cover;
 }
 
 .carousel-caption {
