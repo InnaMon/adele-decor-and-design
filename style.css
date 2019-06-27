@@ -72,6 +72,10 @@ h2 {
   }
 
 /* ---------  TESTIMONIALS  --------- */
+#testimonials {
+    height: 75vh;
+    margin: auto;
+}
 
 .carousel-item {
     padding: 3rem;
