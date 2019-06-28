@@ -5,6 +5,11 @@ body {
 h2 {
     font-family: 'Italianno', cursive;
     font-weight: lighter;
+    /* padding-top: 150px; */
+}
+
+.pt-6 {
+    padding-top: 150px;
 }
 
 /* ---------  NAV BAR --------- */
