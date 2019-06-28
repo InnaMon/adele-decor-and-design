@@ -84,7 +84,8 @@ h2 {
 
 .carousel-item {
     height: 40vh;
-    padding-top: 4rem;
+    /* padding-top: 4rem; */
+    padding: 4rem 0;
 }
 
 .carousel-control-prev-icon,
@@ -115,6 +116,10 @@ h2 {
   content: '<';
   font-size: 35px;
   color: black;
+}
+
+.carousel-indicators {
+    padding-bottom: 2rem;
 }
 
 .carousel-indicators li {
