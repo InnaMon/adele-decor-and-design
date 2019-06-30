@@ -32,7 +32,20 @@
     accessToken: 'Access-Token',
     resolution: 'standard_resolution',
     sortBy: 'most-recent',
-    limit: 8
+    limit: 8,
+    template: '<div class="image-item insta-page">' +
+    '<a class="image insta-image" href="{{image}}>' +
+    '<img alt="{{user.full_name}}" src="{{image}}>' +
+    '<div class="img-backdrop-tutorial">' +
+    '<div class="insta-caption">' +
+    '<p>{{caption}}</p>' +
+    '</div>' +
+    '</div>' +
+    '<div class="captions">' +
+    '<a></a>' +
+    '</div>' +
+    '</a>' +
+    '</div>'
      });
       
      tutorialFeed.run();
