@@ -21,9 +21,10 @@
 // });
 // instafeed.run();
 
-document.addEventListener("DOMContentLoaded", function() {
-  
-    let tutorialFeed = new Instafeed ({
+
+
+
+  var tutorialFeed = new Instafeed ({
     get: 'user',
     userId: '12395157497',
     clientId: '567a5dbd252e428aa6f40ce71717a282',
@@ -35,6 +36,3 @@ document.addEventListener("DOMContentLoaded", function() {
      });
       
      tutorialFeed.run();
-     
-  });
-    
