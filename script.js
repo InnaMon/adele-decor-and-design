@@ -10,6 +10,30 @@ for (let i = 0; i < navItem.length; i++) {
   });
 }
 
+$(document).ready(function () {
+  $(".navbar-nav a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+});
+
+// $(document).ready(function () {
+//   $("nav").find("li").on("click", "a", function () {
+//       $('.navbar-collapse.in').collapse('hide');
+//   });
+// });
+
+// const navLink = ul.getElementsByClassName("nav-link");
+// const navbar = document.getElementsByClassName("navbar");
+
+// navLink[i].addEventListener("click", function(e) {
+//   console.log(e);
+// });
+
+// function close(e) {
+//   console.log(e);
+//   navbar.classNmae += "collapse";
+// }
+
 
 
 // https://api.instagram.com/oauth/authorize/?client_id=567a5dbd252e428aa6f40ce71717a282&redirect_uri=https://adele-decore-and-design.com&response_type=token
@@ -62,4 +86,4 @@ for (let i = 0; i < navItem.length; i++) {
     '</div>'
      });
       
-     tutorialFeed.run();
+    //  tutorialFeed.run();
