@@ -33,17 +33,6 @@ h2 {
     border-bottom: 1px solid #cccccc;
 }
 
-/* .active {
-    color: black;
-} */
-
-/* .navbar-light .navbar-nav .nav-link {
-    color: black;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color: black;
-} */
 /* ---------  JUMBOTRON --------- */
 
 .jumbotron {
@@ -69,6 +58,11 @@ h2 {
 }
 
 /* ---------  SERVICES  --------- */
+h4 {
+    text-transform: uppercase;
+    color: rgba(0,0,0,.3);
+}
+
 .btn {
     border-radius: 0;
     text-transform: uppercase;
