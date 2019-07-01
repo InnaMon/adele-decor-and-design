@@ -147,33 +147,41 @@ h4 {
 }
 
 /* ---------  GALLERY  --------- */
+#gallery {
+    background-position: center;
+    background-image: url("img/gallery-background2.jpg");
+    background-size: cover;
+    padding-bottom: 90px;
+    /* height: 70vh;
+    width: 100%; */
+}
 
 .insta-link {
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #cccccc;
+    color: #b3b3b3;
 }
 
 .insta-link > a:link {
-    color: #cccccc;
+    color: #b3b3b3;
     background-color: transparent; 
     text-decoration: none;
   }
   
   .insta-link > a:visited {
-    color: #cccccc;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  .insta-link > a:hover {
     color: #b3b3b3;
     background-color: transparent;
     text-decoration: none;
   }
   
-  .insta-link > a:active {
+  .insta-link > a:hover {
     color: #cccccc;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .insta-link > a:active {
+    color: #b3b3b3;
     background-color: transparent;
     text-decoration: none;
   }
@@ -226,7 +234,6 @@ h4 {
 
 .carousel-indicators {
     padding-top: 2rem;
-    /* padding-bottom: 2rem; */
 }
 
 .carousel-indicators li {
@@ -275,6 +282,11 @@ h4 {
     #testimonials > h2 {
         font-size: 72px;
     }
+    .carousel-indicators {
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+    
 }
 
 
