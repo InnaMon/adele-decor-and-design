@@ -231,6 +231,14 @@ h4 {
     background-color: black;
   }
 
+.li[aria-hidden='true'] { 
+    display: none; 
+}
+
+.li[aria-hidden='false'] { 
+    display: block; 
+}
+
 /* ---------  CONTACT  --------- */
 #contact {
     background-color: #f2f2f2;
