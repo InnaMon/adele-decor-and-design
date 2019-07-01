@@ -253,6 +253,10 @@ h4 {
     .nav-item {
         font-size: 0.75rem;
     }
+
+    .jumbotron {
+        height: 40vh;
+    }
 }
 
 
@@ -260,6 +264,10 @@ h4 {
 @media screen and (min-width: 870px) {
     .nav-item {
         font-size: 1rem;
+    }
+
+    .jumbotron {
+        height: 100vh;
     }
 }
 
