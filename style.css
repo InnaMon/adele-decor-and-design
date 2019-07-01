@@ -180,8 +180,12 @@ h4 {
 
 /* ---------  TESTIMONIALS  --------- */
 #testimonials {
-    height: 75vh;
+    height: 100vh;
     margin: auto;
+}
+
+#testimonials > h2 {
+    font-size: 4rem;
 }
 
 .carousel-item {
@@ -263,6 +267,12 @@ h4 {
 
     .jumbotron {
         height: 40vh;
+    }
+    #testimonials {
+        height: 75vh;
+    }
+    #testimonials > h2 {
+        font-size: 72px;
     }
 }
 
