@@ -148,25 +148,25 @@ h2 {
     color: #cccccc;
 }
 
-a:link {
+.insta-link > a:link {
     color: #cccccc;
     background-color: transparent; 
     text-decoration: none;
   }
   
-  a:visited {
+  .insta-link > a:visited {
     color: #cccccc;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:hover {
+  .insta-link > a:hover {
     color: #b3b3b3;
     background-color: transparent;
     text-decoration: none;
   }
   
-  a:active {
+  .insta-link > a:active {
     color: #cccccc;
     background-color: transparent;
     text-decoration: none;
