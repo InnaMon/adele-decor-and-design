@@ -1,3 +1,17 @@
+const ul = document.getElementById("navbarNavAltMarkup");
+
+const navItem = ul.getElementsByClassName("nav-item");
+
+for (let i = 0; i < navItem.length; i++) {
+    navItem[i].addEventListener("click", function() {
+    const current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+
+
+
 // https://api.instagram.com/oauth/authorize/?client_id=567a5dbd252e428aa6f40ce71717a282&redirect_uri=https://adele-decore-and-design.com&response_type=token
 
 // $(window).on('load', function(){

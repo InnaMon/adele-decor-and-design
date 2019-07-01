@@ -32,6 +32,18 @@ h2 {
     margin: auto auto 15px auto;
     border-bottom: 1px solid #cccccc;
 }
+
+/* .active {
+    color: black;
+} */
+
+/* .navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+} */
 /* ---------  JUMBOTRON --------- */
 
 .jumbotron {
