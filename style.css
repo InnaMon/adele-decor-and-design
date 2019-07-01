@@ -151,6 +151,7 @@ h4 {
     background-position: center;
     background-image: url("img/gallery-background2.jpg");
     background-size: cover;
+    padding-top: 50px;
     padding-bottom: 90px;
     /* height: 70vh;
     width: 100%; */
