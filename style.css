@@ -111,6 +111,11 @@ h2 {
     border-color: #9494b8;
 }
 
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(194, 194, 214, 0.5);
+  }
+  
+
 .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
     background-color: #c2c2d6;
@@ -122,6 +127,11 @@ h2 {
     color: #fff;
     background-color: #c2c2d6;
     border-color: #9494b8;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(194, 194, 214, 0.5);
 }
 
 /* ---------  TESTIMONIALS  --------- */
