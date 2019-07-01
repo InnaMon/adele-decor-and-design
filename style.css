@@ -66,34 +66,36 @@ h2 {
     color: #fff;
     background-color: #c2c2d6;
     border-color: #9494b8;
-  }
+}
 
   
 .btn-outline-success:hover {
     color: #fff;
     background-color: #9494b8;
     border-color: #9494b8;
-  }
+}
 
 .btn-outline-success:focus, 
 .btn-outline-success.focus {
     box-shadow: 0 0 0 0.2rem rgba(194, 194, 214, 0.5);
-  }
+}
 
-  .btn-outline-success.disabled, 
-  .btn-outline-success:disabled {
+.btn-outline-success.disabled, 
+.btn-outline-success:disabled {
     color: #c2c2d6;
     background-color: transparent;
-  }
+}
 
-  .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active,
+.btn-outline-success:not(:disabled):not(.disabled):active, 
+.btn-outline-success:not(:disabled):not(.disabled).active,
 .show > .btn-outline-success.dropdown-toggle {
   color: #fff;
   background-color: #c2c2d6;
   border-color: #c2c2d6;
 }
 
-.btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.btn-outline-success:not(:disabled):not(.disabled):active:focus, 
+.btn-outline-success:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-success.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(194, 194, 214, 0.5);
 }
@@ -111,28 +113,64 @@ h2 {
     border-color: #9494b8;
 }
 
-.btn-primary:focus, .btn-primary.focus {
+.btn-primary:focus, 
+.btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(194, 194, 214, 0.5);
   }
   
 
-.btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.disabled, 
+.btn-primary:disabled {
     color: #fff;
     background-color: #c2c2d6;
     border-color: #9494b8;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active, 
+.btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #c2c2d6;
     border-color: #9494b8;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus, 
+.btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(194, 194, 214, 0.5);
 }
+
+/* ---------  GALLERY  --------- */
+
+.insta-link {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #a6a6a6;
+}
+
+a:link {
+    color: #a6a6a6;
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #a6a6a6;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #808080;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: #a6a6a6;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
 /* ---------  TESTIMONIALS  --------- */
 #testimonials {
