@@ -145,29 +145,29 @@ h2 {
 .insta-link {
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #a6a6a6;
+    color: #cccccc;
 }
 
 a:link {
-    color: #a6a6a6;
+    color: #cccccc;
     background-color: transparent; 
     text-decoration: none;
   }
   
   a:visited {
-    color: #a6a6a6;
+    color: #cccccc;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:hover {
-    color: #808080;
+    color: #b3b3b3;
     background-color: transparent;
     text-decoration: none;
   }
   
   a:active {
-    color: #a6a6a6;
+    color: #cccccc;
     background-color: transparent;
     text-decoration: none;
   }
