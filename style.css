@@ -25,6 +25,7 @@ h2 {
 
 .nav-item {
     text-transform: uppercase;
+    font-size: 0.5rem;
 }
 
 .navbar {
@@ -248,11 +249,17 @@ h4 {
     border-color: #9494b8;
 }
 
-@media screen and (min-width: 570px) {
-    /* ---------  TESTIMONIALS  --------- */
+@media screen and (min-width: 700px) {
+    .nav-item {
+        font-size: 0.75rem;
+    }
+}
 
 
 
-@media screen and (min-width: 770px) {
-    /* ---------  TESTIMONIALS  --------- */
+@media screen and (min-width: 870px) {
+    .nav-item {
+        font-size: 1rem;
+    }
+}
 
