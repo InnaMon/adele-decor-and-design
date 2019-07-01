@@ -185,7 +185,7 @@ h4 {
 }
 
 #testimonials > h2 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .carousel-item {
@@ -225,7 +225,8 @@ h4 {
 }
 
 .carousel-indicators {
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    /* padding-bottom: 2rem; */
 }
 
 .carousel-indicators li {
