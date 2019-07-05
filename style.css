@@ -1,6 +1,8 @@
 body {
     font-family: sorts-mill-goudy,serif;
     color: #737373;
+    padding-top: 100px;
+    
 }
 
 h2 {
@@ -9,9 +11,9 @@ h2 {
     /* padding-top: 150px; */
 }
 
-.pt-6 {
+/* .pt-6 {
     padding-top: 150px;
-}
+} */
 
 /* ---------  NAV BAR --------- */
 
@@ -41,7 +43,7 @@ h2 {
     background-position: center;
     background-color: white;
     background-size: cover;
-    padding-top: 175px;
+    /* padding-top: 175px; */
 }
 
 .card {
