@@ -19,9 +19,13 @@ $(document).ready(function () {
   });
 });
 
-// CHANGING SCROLLING
+// CHANGING DEFAULT JUMP LINK
 
-window.addEventListener("hashchange", function() { scrollBy(0, -100) })
+const shiftWindow = function() { scrollBy(0, -175) };
+
+window.addEventListener("hashchange", shiftWindow);
+function load() { if (window.location.hash) shiftWindow(); }
+// handle hashes when the page loads
 
 
 // FIRST MODAL CODE
