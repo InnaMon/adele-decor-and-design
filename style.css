@@ -186,39 +186,45 @@ h4 {
 }
 
 .modal-btn {
-    color: #fff;
-    background-color: #c2c2d6;
+
+    background: #c2c2d6;
     border-color: #9494b8;
-    display:inline-block
+    padding: 5px 10px;
+    display: inline-block;
 }
 
-.modal-btn:hover{}
+.modal-btn:hover{
+    background-color: #9494b8;
+    border-color: #9494b8;
+}
 
 /* The Close Button */
 .closeOne, .closeTwo, .closeThree {
-    color: #aaa;
+    /* color: #aaa; */
+    color: white;
     float: right;
-    font-size: 28px;
-    font-weight: bold;
+    /* font-size: 28px; */
+    /* font-weight: bold; */
 }
 
 .closeOne:hover,
 .closeOne:focus {
-color: #737373;
+color: white;
 text-decoration: none;
 cursor: pointer;
 }
 
 .closeTwo:hover,
 .closeTwo:focus {
-color: #737373;
+/* color: #737373; */
+color: white;
 text-decoration: none;
 cursor: pointer;
 }
 
 .closeThree:hover,
 .closeThree:focus {
-color: #737373;
+color: white;
 text-decoration: none;
 cursor: pointer;
 }
