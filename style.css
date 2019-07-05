@@ -159,6 +159,7 @@ h4 {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    margin-top: 100px;
 }
   
 /* Modal Content/Box */
@@ -180,11 +181,6 @@ h4 {
 .modal-footer {
     text-align: center;
     margin: auto;
-}
-
-.modal-list {
-    margin: auto;
-    width: 30%;
 }
 
 /* The Close Button */
@@ -365,6 +361,10 @@ span {
         padding-top: 0;
         padding-bottom: 2rem;
     }
+    .modal-list {
+        margin: auto;
+        width: 30%;
+    }
     
 }
 
@@ -377,6 +377,9 @@ span {
 
     .jumbotron {
         height: 100vh;
+    }
+    .modal {
+        margin-top: 0px;
     }
 }
 
