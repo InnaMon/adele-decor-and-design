@@ -46,8 +46,6 @@ h2 {
     padding-top: 150px;
 }
 
-.jumbotron-fluid {}
-
 .card {
     border-radius: 0;
     border: none;
@@ -186,6 +184,16 @@ h4 {
     text-align: center;
     margin: auto;
 }
+
+.modal-btn {
+    color: #fff;
+    background-color: #c2c2d6;
+    border-color: #9494b8;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-btn:hover{}
 
 /* The Close Button */
 .closeOne, .closeTwo, .closeThree {
