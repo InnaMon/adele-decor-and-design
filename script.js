@@ -19,6 +19,10 @@ $(document).ready(function () {
   });
 });
 
+// CHANGING SCROLLING
+
+window.addEventListener("hashchange", function() { scrollBy(0, -100) })
+
 
 // FIRST MODAL CODE
 var firstModal = document.getElementById("firstModal");
