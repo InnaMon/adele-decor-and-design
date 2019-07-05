@@ -169,6 +169,7 @@ h4 {
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
     text-align: center;
+    border-radius: 0;
 }
 
 .modal-header {
@@ -179,6 +180,11 @@ h4 {
 .modal-footer {
     text-align: center;
     margin: auto;
+}
+
+.modal-list {
+    margin: auto;
+    width: 30%;
 }
 
 /* The Close Button */
@@ -198,20 +204,24 @@ cursor: pointer;
 
 .closeTwo:hover,
 .closeTwo:focus {
-color: black;
+color: #737373;
 text-decoration: none;
 cursor: pointer;
 }
 
 .closeThree:hover,
 .closeThree:focus {
-color: black;
+color: #737373;
 text-decoration: none;
 cursor: pointer;
 }
 
 .modal-header h2 {
     color: black;
+}
+
+span {
+    text-transform: uppercase;
 }
 
 /* ---------  GALLERY  --------- */
