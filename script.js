@@ -16,23 +16,7 @@ $(document).ready(function () {
   });
 });
 
-// $(document).ready(function () {
-//   $("nav").find("li").on("click", "a", function () {
-//       $('.navbar-collapse.in').collapse('hide');
-//   });
-// });
-
-// const navLink = ul.getElementsByClassName("nav-link");
-// const navbar = document.getElementsByClassName("navbar");
-
-// navLink[i].addEventListener("click", function(e) {
-//   console.log(e);
-// });
-
-// function close(e) {
-//   console.log(e);
-//   navbar.classNmae += "collapse";
-// }
+// added jQuery to collapse navbar in mobil view whenever nav-item clicked
 
 
 
