@@ -355,6 +355,10 @@ span {
     .jumbotron {
         height: 70vh;
     }
+
+    h4 {
+        font-size: 1.4rem;
+    }
     #testimonials {
         height: 75vh;
     }
