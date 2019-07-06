@@ -86,6 +86,16 @@ window.onclick = function(event) {
     }
 }
 
+// ***ADDING ACCESSBILITY TO MODALS***
+
+// change all interactive elements on  page to have tabindex of -1
+function disableTabbingOnPage(tabbableElements) {  
+  $.each(tabbableElements, function (index, element) {
+    $(element).attr('tabindex', '-1');
+  })
+}
+
+
 // added jQuery to collapse navbar in mobil view whenever nav-item clicked
 
 
