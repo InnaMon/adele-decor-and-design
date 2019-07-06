@@ -86,6 +86,11 @@ window.onclick = function(event) {
     }
 }
 
+// backup autofocus javascript code
+
+// $('#firstModal #secondModal #thirdModal').on('shown.bs.modal', function () {
+//   $('.modal-footer button').focus();
+// })  
 
 
 
