@@ -185,19 +185,6 @@ h4 {
     margin: auto;
 }
 
-.modal-btn {
-
-    background: #c2c2d6;
-    border-color: #9494b8;
-    padding: 5px 10px;
-    display: inline-block;
-}
-
-.modal-btn:hover{
-    background-color: #9494b8;
-    border-color: #9494b8;
-}
-
 /* The Close Button */
 .closeOne, .closeTwo, .closeThree {
     /* color: #aaa; */
@@ -233,8 +220,21 @@ cursor: pointer;
     color: black;
 }
 
-span {
+button {
     text-transform: uppercase;
+}
+
+.modal-btn {
+    background-color: #c2c2d6;
+    background: #c2c2d6;
+    border: #9494b8 1px solid;
+    padding: 5px 10px;
+    /* display: inline-block; */
+}
+
+.modal-btn:hover{
+    background-color: #9494b8;
+    border-color: #9494b8;
 }
 
 /* ---------  GALLERY  --------- */
