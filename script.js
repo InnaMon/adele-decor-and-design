@@ -90,7 +90,9 @@ window.onclick = function(event) {
 
 // $('#firstModal #secondModal #thirdModal').on('shown.bs.modal', function () {
 //   $('.modal-footer button').focus();
-// })  
+// }) 
+
+// TO DO: GO BACK AND FIGURE OUT AUTOFOCUS FUNCTION AND WHY THIS ABOVE FUNCTION IS NOT WORKING 
 
 
 
