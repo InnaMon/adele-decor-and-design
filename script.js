@@ -122,28 +122,28 @@ window.onclick = function(event) {
 
 
 
-  var tutorialFeed = new Instafeed ({
-    get: 'user',
-    userId: '12395157497',
-    clientId: '567a5dbd252e428aa6f40ce71717a282',
-    target: 'instafeed',
-    accessToken: 'Access-Token',
-    resolution: 'standard_resolution',
-    sortBy: 'most-recent',
-    limit: 8,
-    template: '<div class="image-item insta-page">' +
-    '<a class="image insta-image" href="{{image}}>' +
-    '<img alt="{{user.full_name}}" src="{{image}}>' +
-    '<div class="img-backdrop-tutorial">' +
-    '<div class="insta-caption">' +
-    '<p>{{caption}}</p>' +
-    '</div>' +
-    '</div>' +
-    '<div class="captions">' +
-    '<a></a>' +
-    '</div>' +
-    '</a>' +
-    '</div>'
-     });
+  // var tutorialFeed = new Instafeed ({
+  //   get: 'user',
+  //   userId: '12395157497',
+  //   clientId: '567a5dbd252e428aa6f40ce71717a282',
+  //   target: 'instafeed',
+  //   accessToken: 'Access-Token',
+  //   resolution: 'standard_resolution',
+  //   sortBy: 'most-recent',
+  //   limit: 8,
+  //   template: '<div class="image-item insta-page">' +
+  //   '<a class="image insta-image" href="{{image}}>' +
+  //   '<img alt="{{user.full_name}}" src="{{image}}>' +
+  //   '<div class="img-backdrop-tutorial">' +
+  //   '<div class="insta-caption">' +
+  //   '<p>{{caption}}</p>' +
+  //   '</div>' +
+  //   '</div>' +
+  //   '<div class="captions">' +
+  //   '<a></a>' +
+  //   '</div>' +
+  //   '</a>' +
+  //   '</div>'
+  //    });
       
     //  tutorialFeed.run();
