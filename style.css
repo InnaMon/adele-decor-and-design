@@ -9,6 +9,12 @@ h2 {
     font-weight: lighter;
 }
 
+h4 {
+    text-transform: uppercase;
+    color: rgba(0,0,0,.3);
+    letter-spacing: 2px;
+}
+
 /* ---------  NAV BAR --------- */
 
 #logo-main {
@@ -55,11 +61,6 @@ h2 {
 }
 
 /* ---------  SERVICES  --------- */
-h4 {
-    text-transform: uppercase;
-    color: rgba(0,0,0,.3);
-}
-
 .btn {
     border-radius: 0;
     text-transform: uppercase;
