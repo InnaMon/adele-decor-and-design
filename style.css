@@ -9,6 +9,12 @@ h2 {
     font-weight: lighter;
 }
 
+h4 {
+    text-transform: uppercase;
+    color: rgba(0,0,0,.3);
+    letter-spacing: 2px;
+}
+
 /* ---------  NAV BAR --------- */
 
 #logo-main {
@@ -23,6 +29,7 @@ h2 {
 .nav-item {
     text-transform: uppercase;
     font-size: 1rem;
+    letter-spacing: 1px;
 }
 
 .navbar {
@@ -55,11 +62,6 @@ h2 {
 }
 
 /* ---------  SERVICES  --------- */
-h4 {
-    text-transform: uppercase;
-    color: rgba(0,0,0,.3);
-}
-
 .btn {
     border-radius: 0;
     text-transform: uppercase;
@@ -346,7 +348,7 @@ button {
 
 @media screen and (min-width: 700px) {
     .nav-item {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
     }
 
     .jumbotron {
@@ -372,7 +374,7 @@ button {
 
 
 
-@media screen and (min-width: 870px) {
+@media screen and (min-width: 900px) {
     .nav-item {
         font-size: 1rem;
     }
