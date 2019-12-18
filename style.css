@@ -229,7 +229,7 @@ button {
 /* ---------  GALLERY  --------- */
 #gallery {
     background-position: center;
-    background-image: url("img/gallery-background2.jpg");
+    background-image: url("img/gallery-background.jpg");
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 90px;
